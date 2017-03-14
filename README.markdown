@@ -29,7 +29,7 @@ This list isn't exhaustive; see the `:help` for details.
 
 ### Transparent setup
 
-Fireplace.vim talks to nREPL.  With Leiningen, it connects automatically based
+Fireplace.vim talks to nREPL.  With Leiningen, it connects automatically on first eval based
 on `.nrepl-port`, otherwise it's just a `:Connect` away.  You can connect to
 multiple instances of nREPL for different projects, and it will use the right
 one automatically.  ClojureScript support is just as seamless with
